@@ -1,1 +1,4 @@
-
+class System:
+    def __init__(self, equilibrium_point):
+        self.equilibrium_point = equilibrium_point
+        self.current_state = equilibrium_point
