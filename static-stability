@@ -7,4 +7,5 @@ def disturb(self, disturbance):
         self.current_state += disturbance
 
 def check_stability(self):
-        
+        if self.current_state == self.equilibrium_point:
+            
