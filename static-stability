@@ -4,4 +4,4 @@ class System:
         self.current_state = equilibrium_point
 
 def disturb(self, disturbance):
-        
+        self.current_state += disturbance
