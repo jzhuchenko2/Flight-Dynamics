@@ -8,4 +8,4 @@ def disturb(self, disturbance):
 
 def check_stability(self):
         if self.current_state == self.equilibrium_point:
-            
+            return "System is stable"
