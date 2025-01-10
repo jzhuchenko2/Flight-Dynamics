@@ -11,4 +11,5 @@ def check_stability(self):
             return "System is stable"
         elif abs(self.current_state - self.equilibrium_point) < 0.1:
             return "System is nearly stable"
-            
+        else:
+            return "System is unstable"
