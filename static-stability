@@ -13,3 +13,5 @@ def check_stability(self):
             return "System is nearly stable"
         else:
             return "System is unstable"
+
+system = System(equilibrium_point=0.0)
