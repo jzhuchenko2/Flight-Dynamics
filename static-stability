@@ -9,4 +9,6 @@ def disturb(self, disturbance):
 def check_stability(self):
         if self.current_state == self.equilibrium_point:
             return "System is stable"
-            elif abs(self.current_state - self.equilibrium_point) < 0.1:
+        elif abs(self.current_state - self.equilibrium_point) < 0.1:
+            return "System is nearly stable"
+            
