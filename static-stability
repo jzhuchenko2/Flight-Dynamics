@@ -15,3 +15,4 @@ def check_stability(self):
             return "System is unstable"
 
 system = System(equilibrium_point=0.0)
+print(system.check_stability())  # Output: System is stable
