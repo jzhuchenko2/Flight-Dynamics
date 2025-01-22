@@ -16,3 +16,5 @@ def check_stability(self):
 
 system = System(equilibrium_point=0.0)
 print(system.check_stability())  # Output: System is stable
+
+system.disturb(0.05)
