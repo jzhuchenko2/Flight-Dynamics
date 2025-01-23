@@ -19,3 +19,5 @@ print(system.check_stability())  # Output: System is stable
 
 system.disturb(0.05)
 print(system.check_stability())  #output: is nearly stable
+
+system.disturb(0.2)
