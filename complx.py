@@ -18,3 +18,6 @@ conjugate_a = a.conjugate()
 num = [1, 1]
 den = [1, 2, 2]
 system = signal.TransferFunction(num, den)
+
+#plot
+w, mag, phase = signal.bode(system)
