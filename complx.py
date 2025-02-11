@@ -10,3 +10,7 @@ z_quot = z1 / z2
 print(f"Sum: {z_sum}, Difference: {z_diff}, Product: {z_prod}, Quotient: {z_quot}")
 
 conjugate_a = a.conjugate()
+
+num = [1, 1]
+den = [1, 2, 2]
+system = signal.TransferFunction(num, den)
