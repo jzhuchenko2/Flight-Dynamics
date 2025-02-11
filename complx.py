@@ -7,6 +7,6 @@ z_diff = z1 - z2
 z_prod = z1 * z2
 z_quot = z1 / z2
 
-print(f"Sum: {z_sum}, Difference:
+print(f"Sum: {z_sum}, Difference: {z_diff}, Product: {z_prod}, Quotient: {z_quot}")
 
 conjugate_a = a.conjugate()
