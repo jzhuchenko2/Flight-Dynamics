@@ -1,3 +1,7 @@
+import numpy as np
+import scipy.signal as signal
+import matplotlib.pyplot as plt
+
 z1 = complex(2, 3)  # 2 + 3j
 z2 = 4 + 5j
 
