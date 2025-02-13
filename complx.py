@@ -22,3 +22,4 @@ system = signal.TransferFunction(num, den)
 #plot
 w, mag, phase = signal.bode(system)
 plt.figure()
+plt.semilogx(w, mag)  # Bode magnitude plot
