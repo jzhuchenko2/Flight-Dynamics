@@ -21,3 +21,4 @@ system = signal.TransferFunction(num, den)
 
 #plot
 w, mag, phase = signal.bode(system)
+plt.figure()
