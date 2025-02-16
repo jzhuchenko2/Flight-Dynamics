@@ -25,3 +25,4 @@ plt.figure()
 plt.semilogx(w, mag)  # Bode magnitude plot
 plt.figure()
 plt.semilogx(w, phase)
+plt.show()
