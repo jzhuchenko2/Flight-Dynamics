@@ -1,6 +1,7 @@
 import numpy as np
 import scipy.signal as signal
 import matplotlib.pyplot as plt
+import control as ctrl
 
 z1 = complex(2, 3)  # 2 + 3j
 z2 = 4 + 5j
@@ -26,3 +27,5 @@ plt.semilogx(w, mag)  # Bode magnitude plot
 plt.figure()
 plt.semilogx(w, phase)
 plt.show()
+
+#controlllllll
