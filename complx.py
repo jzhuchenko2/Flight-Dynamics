@@ -31,3 +31,4 @@ plt.show()
 #controlllllll
 A = np.array([[0, 1], [-2, -3]])
 B = np.array([[0], [1]])
+C = np.array([[1, 0]])
