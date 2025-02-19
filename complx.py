@@ -29,3 +29,4 @@ plt.semilogx(w, phase)
 plt.show()
 
 #controlllllll
+A = np.array([[0, 1], [-2, -3]])
