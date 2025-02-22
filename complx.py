@@ -37,3 +37,4 @@ D = np.array([[0]]) #for specific dh/du
 system = ctrl.ss(A, B, C, D) #c state-space system
 
 t, y = ctrl.step_response(system) # sim response to a step input
+plt.plot(t, y)
