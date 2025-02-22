@@ -34,4 +34,4 @@ B = np.array([[0], [1]])
 C = np.array([[1, 0]])
 D = np.array([[0]]) #for specific dh/du
 
-system = ctrl.ss(A, B, C, D)
+system = ctrl.ss(A, B, C, D) #c state-space system
