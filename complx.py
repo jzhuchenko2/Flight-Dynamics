@@ -39,3 +39,4 @@ system = ctrl.ss(A, B, C, D) #c state-space system
 t, y = ctrl.step_response(system) # sim response to a step input
 plt.plot(t, y)
 plt.xlabel('Time (s)')
+plt.ylabel('Response')
