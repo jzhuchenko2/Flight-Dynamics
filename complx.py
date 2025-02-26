@@ -42,3 +42,8 @@ plt.xlabel('Time (s)')
 plt.ylabel('Response')
 plt.title('Step Response')
 plt.show()
+
+
+############################
+# Root locus plot
+ctrl.root_locus(system)
