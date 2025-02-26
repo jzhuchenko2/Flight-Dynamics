@@ -40,3 +40,4 @@ t, y = ctrl.step_response(system) # sim response to a step input
 plt.plot(t, y)
 plt.xlabel('Time (s)')
 plt.ylabel('Response')
+plt.title('Step Response')
