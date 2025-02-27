@@ -47,3 +47,4 @@ plt.show()
 ############################
 # Root locus plot
 ctrl.root_locus(system)
+plt.show()
