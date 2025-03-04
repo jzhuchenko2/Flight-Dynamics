@@ -50,3 +50,6 @@ ctrl.root_locus(system)
 plt.show()
 ctrl.nyquist(system)
 plt.show()
+
+# pid controller
+Kp = 1.0
