@@ -54,3 +54,4 @@ plt.show()
 # pid controller
 Kp = 1.0
 Ki = 0.1
+Kd = 0.01
