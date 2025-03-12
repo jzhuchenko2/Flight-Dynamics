@@ -60,4 +60,4 @@ pid = ctrl.TransferFunction([Kd, Kp, Ki], [1, 0])
 # Combine with a plant
 plant = ctrl.TransferFunction([1], [1, 2, 1])
 system = ctrl.series(pid, plant)
-closed_loop_system = ctrl.feedback()
+closed_loop_system = ctrl.feedback(system)
