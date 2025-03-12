@@ -61,3 +61,5 @@ pid = ctrl.TransferFunction([Kd, Kp, Ki], [1, 0])
 plant = ctrl.TransferFunction([1], [1, 2, 1])
 system = ctrl.series(pid, plant)
 closed_loop_system = ctrl.feedback(system)
+
+# stepping response
