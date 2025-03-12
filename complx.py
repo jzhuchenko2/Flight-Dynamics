@@ -57,5 +57,5 @@ Ki = 0.1
 Kd = 0.01
 
 pid = ctrl.TransferFunction([Kd, Kp, Ki], [1, 0])
-
+# Combine with a plant
 plant = ctrl.TransferFunction([1], [1, 2, 1])
