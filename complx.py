@@ -63,3 +63,4 @@ system = ctrl.series(pid, plant)
 closed_loop_system = ctrl.feedback(system)
 
 # stepping response
+t, y = ctrl.step_response(closed_loop_system)
