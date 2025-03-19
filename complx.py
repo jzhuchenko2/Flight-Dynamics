@@ -66,3 +66,4 @@ closed_loop_system = ctrl.feedback(system)
 t, y = ctrl.step_response(closed_loop_system)
 #step on it for step response returning a smaller PI 
 plt.plot(t, y)
+plt.xlabel('Time (s)')
