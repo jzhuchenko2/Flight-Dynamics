@@ -73,3 +73,7 @@ plt.xlabel('Time (s)')
 pid = ctrl.TransferFuncton([Kp, Ki, Kd]), [0,1])
 #combining it with a plant that will involve integrators nor dominant complex conjugate poles.
 ##plant
+kp1 = 2.0
+Ki = 0.1
+Kd = 0.01
+plant_system = ctrl.TF([Kp, Ki, Kd]), [0,1])
