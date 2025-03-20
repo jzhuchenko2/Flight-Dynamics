@@ -77,3 +77,6 @@ kp1 = 2.0
 Ki = 0.1
 Kd = 0.01
 plant_system = ctrl.TF([Kp, Ki, Kd]), [0,1])
+sys = ctrl.series(pid, plant)
+closed_L_S_ = ctrl.feedback(system)
+#Gc(s) = K(1+1/Tis+Tds)
