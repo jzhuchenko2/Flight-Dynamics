@@ -67,3 +67,9 @@ t, y = ctrl.step_response(closed_loop_system)
 #step on it for step response returning a smaller PI 
 plt.plot(t, y)
 plt.xlabel('Time (s)')
+
+# ctrl to the step response creating an S-shape
+
+pid = ctrl.TransferFuncton([Kp, Ki, Kd]), [0,1])
+#combining it with a plant that will involve integrators nor dominant complex conjugate poles.
+##plant
