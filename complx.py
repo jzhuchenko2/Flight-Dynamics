@@ -82,3 +82,4 @@ closed_L_S_ = ctrl.feedback(system)
 #Gc(s) = K(1+1/Tis+Tds)
 plt.plot(plant_system)
 sys = ctrl.series(pid, sys)
+#series is controlled through the CLS but will expand once i find out abt the plant config
