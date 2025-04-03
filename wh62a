@@ -5,3 +5,4 @@ den2 = conv([1 10], [1 10]);
 den3 = conv(den2, [1 10]);
 den = conv(den1, den3);
 Gplant = tf(num, den);
+disp('Plant:');
