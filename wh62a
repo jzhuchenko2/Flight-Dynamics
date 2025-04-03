@@ -7,3 +7,6 @@ den = conv(den1, den3);
 Gplant = tf(num, den);
 disp('Plant:');
 Gplant
+
+figure;
+step(Gplant);
